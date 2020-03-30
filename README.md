@@ -47,6 +47,12 @@
   ![Optional Text](../master/images/sql17.png)<br>
   19. Instalasi SQL Server berhasil.
     ![Optional Text](../master/images/sql18.png)<br><br>
+ # CRUD Operations in SQL Server
+  CRUD adalah operasi dasar dalam RDBMS apa pun, dan tip ini akan memerinci operasi CRUD di SQL Server.
+ # Apa itu CRUD?
+  CRUD berarti Create, Read, Update, Delete dan itu bisa berarti hal yang berbeda dalam sistem yang berbeda, tetapi untuk SQL Server, umumnya dianggap memetakan ke operasi SQL berikut pada catatan tabel.
+  
+  
  # Apa itu SQL Server Big Data Cluster?
   Dimulai dengan SQL Server 2019 (15.x), SQL Server Big Data Clusters memungkinkan Anda untuk menyebarkan cluster SQL Server, Spark, dan wadah HDFS yang berjalan pada Kubernetes. Komponen-komponen ini berjalan berdampingan untuk memungkinkan Anda membaca, menulis, dan memproses data besar dari Transact-SQL atau Spark, memungkinkan Anda untuk dengan mudah menggabungkan dan menganalisis data relasional bernilai tinggi dengan data besar volume tinggi.<br>
 SQL Server 2019 (15.x) memperkenalkan SQL Server Big Data Clusters.
