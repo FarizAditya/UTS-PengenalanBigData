@@ -66,13 +66,17 @@ Menyebarkan cluster SQL Server, Spark, dan wadah HDFS yang berjalan pada Kuberne
 # Skenario
 SQL Server Big Data Cluster memberikan fleksibilitas dalam cara Anda berinteraksi dengan data besar Anda. Anda bisa meminta sumber data eksternal, menyimpan data besar dalam HDFS yang dikelola oleh SQL Server, atau meminta data dari berbagai sumber data eksternal melalui cluster. Anda kemudian dapat menggunakan data untuk AI, pembelajaran mesin, dan tugas analisis lainnya. Bagian berikut memberikan informasi lebih lanjut tentang skenario ini.
 # Data virtualization
+ ![Optional Text](../master/images/data-virtualization.png)<br><br>
 Dengan memanfaatkan SQL Server PolyBase , SQL Server Big Data Cluster dapat meminta sumber data eksternal tanpa memindahkan atau menyalin data. SQL Server 2019 (15.x) memperkenalkan konektor baru ke sumber data.
  # Data lake
+  ![Optional Text](../master/images/data-lake.png)<br><br>
  Sekumpulan Big Data SQL Server mencakup kumpulan penyimpanan HDFS yang dapat diskalakan . Ini dapat digunakan untuk menyimpan data besar, berpotensi dicerna dari berbagai sumber eksternal. Setelah data besar disimpan dalam HDFS di cluster data besar, Anda bisa menganalisis dan meminta data dan menggabungkannya dengan data relasional Anda.
 # Scale-out data mart
+ ![Optional Text](../master/images/data-mart.png)<br><br>
 SQL Server Big Data Clusters menyediakan penghitungan dan penyimpanan skala-out untuk meningkatkan kinerja analisis data apa pun. Data dari berbagai sumber dapat dicerna dan didistribusikan di seluruh kumpulan data sebagai cache untuk analisis lebih lanjut.
 # Integrated AI and Machine Learning
 SQL Server Big Data Cluster memungkinkan tugas pembelajaran AI dan mesin pada data yang disimpan dalam kumpulan penyimpanan HDFS dan kumpulan data. Anda bisa menggunakan Spark serta alat AI bawaan di SQL Server, menggunakan R, Python, Scala, atau Java.
+ ![Optional Text](../master/images/ai-ml-spark.png)<br><br>
 # Management and Monitoring
 disediakan melalui kombinasi alat baris perintah, API, portal, dan tampilan manajemen dinamis.
 
@@ -95,6 +99,7 @@ Kubernetes adalah orkestra wadah sumber terbuka, yang dapat mengukur penyebaran 
 Dalam SQL Server Big Data Clusters, Kubernetes bertanggung jawab untuk keadaan SQL Server Big Data Clusters; Kubernet membangun dan mengkonfigurasi node cluster, memberikan pod ke node, dan memantau kesehatan cluster.<br>
 # Big data clusters architecture
 Diagram berikut menunjukkan komponen-komponen dari kumpulan data besar untuk SQL Server.
+ ![Optional Text](../master/images/architecture-diagram-overview.png)<br><br>
 # Controller
 Pengontrol menyediakan manajemen dan keamanan untuk cluster. Ini berisi layanan kontrol, toko konfigurasi, dan layanan tingkat cluster lainnya seperti Kibana, Grafana, dan Pencarian Elastis.
 # Compute pool
