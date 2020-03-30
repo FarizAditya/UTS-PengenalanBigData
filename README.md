@@ -36,7 +36,7 @@
   13. Beri nama untuk SQL Server anda. Kemudian pilih Next.
   ![Optional Text](../master/images/sql12.png)<br>
   14. Pilih Next lagi.
-  ![Optional Text](../master/images/sq1l3.png)<br>
+  ![Optional Text](../master/images/sql13.png)<br>
   15. Pilih Mixed mode kemudian beri password yang kuat namun mudah diingat. Pilih Add Current User kemudian pilih Next.
   ![Optional Text](../master/images/sq1l4.png)<br>
   16.Selanjutnya pilih Install.
