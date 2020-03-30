@@ -38,7 +38,7 @@
   14. Pilih Next lagi.
   ![Optional Text](../master/images/sql13.png)<br>
   15. Pilih Mixed mode kemudian beri password yang kuat namun mudah diingat. Pilih Add Current User kemudian pilih Next.
-  ![Optional Text](../master/images/sq1l4.png)<br>
+  ![Optional Text](../master/images/sql14.png)<br>
   16.Selanjutnya pilih Install.
   ![Optional Text](../master/images/sql15.png)<br>
   17. Tunggu proses instalasi hingga selesai.
